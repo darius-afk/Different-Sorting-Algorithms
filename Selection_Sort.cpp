@@ -27,4 +27,8 @@ int main() {
     for (int i = 0; i < N; i++)
         cout << array[i] << " ";
     cout << endl;
+
+    delete[] array;
+
+    return 0;
 }
